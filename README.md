@@ -1,2 +1,3 @@
 # menggambar-primitif-LevraGav
-menggambar-primitif-LevraGav created by GitHub Classroom
+Nama : Arvel Gavrilla Raissananda
+NRP : 05111940000040
