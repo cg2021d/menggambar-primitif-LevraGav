@@ -74,35 +74,6 @@
     </section>
     <!-- END SEGITIGA -->
 
-    <!-- SEGITIGA LOOP -->
-    <section>
-      <h1>Segitiga Loop</h1>
-      <canvas 
-        id="myCanvas-segitiga-loop" 
-        width="750px" 
-        height="500px"
-      >
-      </canvas>
-
-      <!-- Contoh code menggunakan script di luar -->
-      <script id="vertexShaderCode-segitiga-loop" type="notjs">
-        attribute vec2 a_position;
-        void main() 
-        {
-          gl_Position = vec4(a_position, 0.0, 1.0);
-          gl_PointSize = 20.0;
-        }
-      </script>
-
-      <script id="fragmentShaderCode-segitiga-loop" type="notjs">
-        void main() 
-        {
-          gl_FragColor = vec4(0, 224, 243, 1.0);
-        }
-      </script>
-    </section>
-    <!-- END SEGITIGA LOOP -->
-
     <!-- SEGITIGA STRIP -->
     <section>
       <h1>Segitiga Line Strip</h1>
@@ -163,6 +134,36 @@
       </script>
     </section>
     <!-- END SEGITIGA TRIANGLE STRIP -->
+
+    <!-- SEGITIGA LOOP -->
+    <section>
+      <h1>Segitiga Loop</h1>
+      <canvas 
+        id="myCanvas-segitiga-loop" 
+        width="750px" 
+        height="500px"
+      >
+      </canvas>
+
+      <!-- Contoh code menggunakan script di luar -->
+      <script id="vertexShaderCode-segitiga-loop" type="notjs">
+        attribute vec2 a_position;
+        void main() 
+        {
+          gl_Position = vec4(a_position, 0.0, 1.0);
+          gl_PointSize = 20.0;
+        }
+      </script>
+
+      <script id="fragmentShaderCode-segitiga-loop" type="notjs">
+        void main() 
+        {
+          gl_FragColor = vec4(0, 224, 243, 1.0);
+        }
+      </script>
+    </section>
+    <!-- END SEGITIGA LOOP -->
+
 
     <!-- SEGITIGA TRIANGLE FAN -->
     <section>
